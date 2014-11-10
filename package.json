@@ -1,4 +1,24 @@
 {
+  "name": "soapy",
+  "version": "0.0.1",
+  "author": "Websecurify <contact@websecurify.com>",
+  "description": "node-soap monkey patch to convert WSDL files to http requests",
+  "license": "MIT",
+  
+  "repository": {
+    "type": "git",
+	"url": "git://github.com/websecurify/node-soapy.git"
+  },
+  
+  "keywords": [
+    "wsdl",
+	"soap",
+	"parser",
+	"http"
+  ],
+  
+  "main": "./index.js",
+  
   "dependencies": {
     "soap": "^0.6.0"
   }
